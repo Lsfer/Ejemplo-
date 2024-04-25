@@ -1,0 +1,11 @@
+public class MyProgram extends ConsoleProgram
+{
+    public void run()
+    {
+       String palabra1 = "hola " ; 
+       String palabra2 = "¿Que tal?" ; 
+       
+       System.out.println(palabra1 + palabra2); 
+       
+    }
+}

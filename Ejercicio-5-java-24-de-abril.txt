@@ -1,0 +1,42 @@
+public class MyProgram extends ConsoleProgram
+{
+    public void run()
+    {
+        Double num1 = 3.14;
+        Double num2 = 2.8689;
+        Double num3 = 5.85;
+        Double num4 = 4.49;
+        Double num5= 2.10;
+        
+        System.out.println("double a integer"); 
+        Integer a = num1.intValue();
+        System.out.println(a); 
+        Integer b = num2.intValue();
+        System.out.println(b); 
+        Integer c = num3.intValue();
+        System.out.println(c); 
+        Integer d = num4.intValue();
+        System.out.println(d); 
+        Integer e = num5.intValue();
+        System.out.println(e); 
+        
+        
+        Integer num6 = 1945;
+        Integer num7 = 2010;
+        Integer num8 = 218;
+        Integer num9 = 684;
+
+        System.out.println("integer a double"); 
+        Double f = num6.doubleValue();
+        System.out.println(f); 
+        Double g = num7.doubleValue();
+        System.out.println(g); 
+        Double h = num8.doubleValue();
+        System.out.println(h); 
+        Double i = num9.doubleValue();
+        System.out.println(i); 
+        
+        
+        
+    }
+}

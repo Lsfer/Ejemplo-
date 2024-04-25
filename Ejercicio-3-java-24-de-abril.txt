@@ -1,0 +1,32 @@
+public class MyProgram extends ConsoleProgram
+{
+    public void run()
+    {
+        Integer num1 = 8; 
+        
+        String texto1 = "1.5522"; 
+        
+        Double deci1 = 3.18; 
+        
+        System.out.println("Integer a double"); 
+        Double deci2 = num1.doubleValue();
+        System.out.println(deci2);
+        
+        
+        System.out.println("double a integer");
+        Integer num2 = deci1.intValue(); 
+       System.out.println(num2);
+       
+       System.out.println("string a double");
+       Double doubstring = Double.parseDouble(texto1); 
+       System.out.println(doubstring);
+       
+        System.out.println("double a string");
+       String deci3 = Double.toString(deci1); 
+       System.out.println(deci3);
+       
+       
+       
+       
+    }
+}

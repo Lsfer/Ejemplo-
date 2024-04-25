@@ -1,0 +1,17 @@
+
+public class MyProgram extends ConsoleProgram
+{
+    public void run()
+    {
+       String Palabra = "hola"; 
+       System.out.println(Palabra);
+       Integer numero = 1; 
+       System.out.println(numero); 
+       Double numd = 1.25;
+       System.out.println(numd); 
+       Boolean mibol = true; 
+       System.out.println(mibol);
+       
+       
+    }
+}
