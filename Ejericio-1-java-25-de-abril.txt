@@ -1,0 +1,58 @@
+import java.util.Scanner; 
+
+public class MyProgram extends ConsoleProgram
+{
+    public void run()
+    {
+        Scanner scanner = new Scanner(System.in); 
+        System.out.print("Ingrese su timepo laboral: ");
+        
+        Integer numero = scanner.nextInt(); 
+        
+        if (numero >=0 && numero <5) {
+            
+            System.out.print("Usted es principiante");  
+        }
+        
+        else if (numero >=5 && numero <=10) { 
+            
+            System.out.print("Eres intermedio"); 
+            
+        }
+        
+        else {
+            System.out.print("experto"); 
+        }
+        
+        
+    }
+} 
+
+
+
+
+
+
+
+ import java.util.Scanner; 
+
+public class MyProgram extends ConsoleProgram
+{
+    public void run()
+    {
+        Scanner scanner = new Scanner(System.in); 
+        System.out.print("Ingrese un numerol: ");
+        
+        Integer numero = scanner.nextInt(); 
+        
+        if (numero % 2 == 0 ) {
+            
+            System.out.print("el numero es par");  
+        } 
+        else {
+            System.out.print("el numero es impar"); 
+        }
+        
+        
+    }
+}
