@@ -1,0 +1,26 @@
+import math 
+num1 = 15
+num2 = 5
+suma = num1+num2
+print(f"resultado de la suma es: {suma}")
+
+num3= 100
+num4= 20
+resta = num3-num4
+print(f"resultado de la resta es: {resta}")
+
+num5=16 
+num6=5
+multi= num5*num6
+print(f"resultado de la multiplicacion es: {multi}")
+
+num7=19.2
+num8=18.5
+divi = num7 / num8 
+print(f"resultado de la divicion es: {divi}")
+
+pt = pow(num1,num2) 
+print(f"resultado de la potencia es {pt}")
+
+fac = math.factorial(num2) 
+print (f"el facotrial es de: {fac}")

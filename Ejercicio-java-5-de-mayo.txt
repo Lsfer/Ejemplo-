@@ -1,0 +1,74 @@
+import java.util.Scanner;
+
+public class MyProgram extends ConsoleProgram
+{
+    public void run()
+    {
+        Scanner scanner = new Scanner(System.in);
+        
+        int resu, valor = 0; 
+        System.out.print("Menu\n");
+        System.out.print("1. Multiplo\n");
+        System.out.print("2. Mensaje\n");
+        System.out.print("3. Angulo faltante\n");
+        
+        int opcion = scanner.nextInt();
+        
+        switch (opcion){
+        case 1: 
+             System.out.print("Ingrese un numero: ");
+             int num = scanner.nextInt();
+             for(int i = 1; i <= 10; i++) {
+                 resu = num * i; 
+                 System.out.print(resu+"\n");
+                 }
+                 break; 
+        case 2: 
+            
+            System.out.println("Poner un si o un no: "); 
+            Scanner scanner1 = new Scanner(System.in);
+            String  mj = scanner1.nextLine(); 
+            
+            if(mj.equals("si")){
+                System.out.print("Bienvenido");
+            }
+            else if(mj.equals("no")){
+                System.out.print("Adios"); 
+            }
+            else{
+                System.out.print("Respuesta invalida :c"); 
+            }
+            break; 
+         
+         case 3: 
+            
+            System.out.println("ingres el primer angulo: ");
+            Scanner scanner2 = new Scanner(System.in);
+            int p = scanner2.nextInt();
+            System.out.println("Ingrese el segundo angulo: "); 
+            Scanner scanner3 = new Scanner(System.in);
+            int c = scanner3.nextInt();
+            
+            valor = 180 - (p+c); 
+            
+            if( valor < 0) {
+                
+                System.out.println("error ");
+            }
+            else if( valor > 0) {
+                
+                System.out.println("El angulo es de: "+ valor);
+                
+            }
+            break; 
+            
+            default:
+            System.out.println("todo salio mal xd"); 
+            break; 
+            
+        }
+        
+        
+        
+    }
+}
